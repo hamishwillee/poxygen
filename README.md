@@ -4,7 +4,9 @@ Python script(s) to convert Doxygen XML into Gitbook-markdown.
 
 ## Overview
 
-This Python script can be used to generate Gitbook-compatible markdown from Doxygen C++ XML. The location of the XML and output files is specified in the script (relative to DOXYGEN_ROOT_DIR).
+This Python script can be used to generate Gitbook-compatible markdown from Doxygen C++ XML. An example of the rendered output can be seen on gitbook here: [DroneCore](https://docs.dronecore.io/en/api_reference/classdronecore_1_1_telemetry.html).
+
+The location of the XML and output files is specified in the script (relative to DOXYGEN_ROOT_DIR).
 
 The output format currently "largely" follows DOxygen HTML output and is fully linked. 
 
